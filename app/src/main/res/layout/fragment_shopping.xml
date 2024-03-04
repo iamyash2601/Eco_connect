@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.shopping.shoppingFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textshopping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <!-- Item 1 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/jutepot"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Item 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/bmbcutlery"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Item 3 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/bmstraw"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 3"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Item 4 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/coffeemug"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 4"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Item 5 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ctnetbag"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 5"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Item 6 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/hndmadecutllery"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 6"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Item 7 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:contentDescription="Eco-Friendly Product 1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hndmsdbowl" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 7"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/toothbrush"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 8"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/totebag"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1" />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 9"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <!-- Add your eco-friendly product image here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/hairbrush"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Eco-Friendly Product 1"
+                    android:clickable="true"
+                    android:onClick="onImageClick"
+
+                    />
+
+                <!-- Add your product details here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name 10"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Add the product price here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:gravity="center"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+            <!-- Repeat the above LinearLayout for each product item -->
+        </GridLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/texthome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Eco Connect"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Your Name" />
+
+    <!-- Commute Distance -->
+    <EditText
+        android:id="@+id/editTextCommute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Daily Commute Distance (in km)"
+        android:inputType="numberDecimal" />
+
+    <!-- Fuel Type Spinner -->
+    <Spinner
+        android:id="@+id/spinnerFuelType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Vehicle Efficiency -->
+    <EditText
+        android:id="@+id/editTextVehicleEfficiency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Vehicle Efficiency (km per liter)"
+        android:inputType="numberDecimal" />
+
+    <!-- Energy Source Spinner -->
+    <Spinner
+        android:id="@+id/spinnerEnergySource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Energy Consumption -->
+    <EditText
+        android:id="@+id/editTextEnergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Daily Energy Consumption (in kWh)"
+        android:inputType="numberDecimal" />
+
+    <!-- Waste Type Spinner -->
+    <Spinner
+        android:id="@+id/spinnerWasteType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+    <!-- Daily Waste Generation -->
+    <EditText
+        android:id="@+id/editTextWaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Daily Waste Generation (in kg)"
+        android:inputType="numberDecimal" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Calculate" />
+
+</LinearLayout>

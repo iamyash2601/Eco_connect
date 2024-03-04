@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eco_connect.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.example.eco_connect.ui.rateusFragment"
+        android:label="@string/menu_reward"
+        tools:layout="@layout/fragment_emission_calculator" />
+
+    <fragment
+        android:id="@+id/nav_ecoquest"
+        android:name="com.example.eco_connect.ui.eco_quest.eco_questFragment"
+        android:label="@string/menu_ecoquest"
+        tools:layout="@layout/fragment_eco_quest" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.eco_connect.ui.history.historyFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_shopping"
+        android:name="com.example.eco_connect.ui.shopping.shoppingFragment"
+        android:label="@string/menu_shopping"
+        tools:layout="@layout/fragment_shopping" />
+
+    <fragment
+        android:id="@+id/nav_rateus"
+        android:name="com.example.eco_connect.ui.rateusFragment"
+        android:label="@string/menu_rateus"
+        tools:layout="@layout/fragment_rateus" />
+
+</navigation>
